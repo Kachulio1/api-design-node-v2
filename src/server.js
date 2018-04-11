@@ -7,7 +7,7 @@ import { signin, protect } from "./api/modules/auth";
 const app = express();
 
 app.get("/", () => {
-  res.json({ ok: true });
+  return res.json({ ok: true });
 });
 
 app.listen(3001, () => {
