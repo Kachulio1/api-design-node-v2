@@ -12,3 +12,4 @@ if (module.hot) {
 		currentApp = app
 	})
 }
+
